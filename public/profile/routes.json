@@ -2,27 +2,27 @@
     "sections": [
         {
             "component": "About",
-            "path": "/about",
+            "path": "/personalWebsite/about",
             "headerTitle": "About"
         },
         {
             "component": "Skills",
-            "path": "/skills",
+            "path": "/personalWebsite/skills",
             "headerTitle": "Skills"
         },
         {
             "component": "Education",
-            "path": "/education",
+            "path": "/personalWebsite/education",
             "headerTitle": "Education"
         },
         {
             "component": "Experience",
-            "path": "/experience",
+            "path": "/personalWebsite/experience",
             "headerTitle": "Experience"
         },
         {
             "component": "Projects",
-            "path": "/projects",
+            "path": "/personalWebsite/projects",
             "headerTitle": "Projects"
         }
     ]
