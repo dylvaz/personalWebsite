@@ -25,7 +25,7 @@ function Home() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.home, {
+    fetch(process.env.PUBLIC_URL + endpoints.home, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -50,7 +50,9 @@ function Home() {
         <Social />
       </div>
     </Fade>
-  ) : <FallbackSpinner />;
+  ) : (
+    <FallbackSpinner />
+  );
 }
 
 export default Home;
