@@ -10,7 +10,6 @@ function MainApp() {
 
   useEffect(() => {
     console.log('fetched');
-    console.log(process.env.PUBLIC_URL + endpoints.routes);
     fetch(process.env.PUBLIC_URL + endpoints.routes, {
       method: 'GET',
     })

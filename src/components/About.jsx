@@ -31,7 +31,6 @@ function About(props) {
   const parseIntro = (text) => <ReactMarkdown children={text} />;
 
   useEffect(() => {
-    console.log('about');
     fetch(process.env.PUBLIC_URL + endpoints.about, {
       method: 'GET',
     })
