@@ -9,12 +9,15 @@ function MainApp() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
+    console.log('fetched');
+    console.log(process.env.PUBLIC_URL + endpoints.routes);
     fetch(process.env.PUBLIC_URL + endpoints.routes, {
       method: 'GET',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => err);
+    console.log(data);
   }, []);
 
   return (
