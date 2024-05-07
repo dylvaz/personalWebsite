@@ -1,0 +1,40 @@
+{
+    "experiences": [
+        {
+            "title": "Back-end Developer",
+            "subtitle": "Akluvis",
+            "workType": "Contract",
+            "workDescription": [
+                "Developed a state-of-the-art GraphQL API from zero using Node.js, TypeScript, and Prisma, leading to a 40% increase in data exchange efficiency between the Three.js/React frontend and the backend, thus significantly enhancing application performance.",
+                "Optimized complex database queries and data manipulation with PostgreSQL, achieving a 30% faster query response time and ensuring data integrity.",
+                "Worked in close partnership with the frontend team to design and implement over 200 GraphQL schemas, re-solvers, and mutations, enabling a quicker data retrieval and manipulation process for improved user experience.",
+                "Instituted sophisticated authentication and authorization protocols using GraphQL directives and JWT tokens, achieving a 99.99% success rate in safeguarding against unauthorized access and ensuring data privacy."
+            ],
+            "dateText": "02/2023 – 11/2023"
+        },
+        {
+            "title": "Full Stack Software Developer",
+            "subtitle": "Ksense Technologies",
+            "workType": "Full-time",
+            "workDescription": [
+                "Led the design and development of user-friendly interfaces and robust back-end services for innovative web-based applications, utilizing Next.js and TypeScript. Aim for a 20% increase in user engagement through enhanced UI/UX design.",
+                "Drive the development of efficient database models, expertly managing data with PostgreSQL and Prisma, to ensure 99.9% data integrity and seamless functionality across our digital platforms.",
+                "Innovate in server-side logic with Node.js and Express, contributing to the development of dynamic applications that are 25% more scalable than our previous solutions.",
+                "Exhibit expertise in promptly identifying and resolving application issues, reducing downtime by 40% and enhancing overall user satisfaction ratings by 15%"
+            ],
+            "dateText": "06/2022 – 02/2023"
+        },
+        {
+            "title": "Full Stack Mobile Developer",
+            "subtitle": "Bazar Enterprises LLC",
+            "workType": "Full-time",
+            "workDescription": [
+                "Led the successful migration of a SwiftUI application to React Native, enabling compatibility with Android devices, thereby expanding the user base by 25%.",
+                "Developed and optimized over 50 reusable UI components, reducing code duplication by 40%.",
+                "Achieved seamless integration between mobile applications and a Django/PostgreSQL server, resulting in an increase in data retrieval speed and enhancing user experience.",
+                "Accelerated project timelines through the integration of third-party modules, streamlining development processes and enhancing project efficiency"
+            ],
+            "dateText": "10/2021 – 06/2022"
+        }
+    ]
+}

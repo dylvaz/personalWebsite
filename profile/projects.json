@@ -1,0 +1,24 @@
+{
+    "projects": [
+        {
+            "title": "BlessedBuy",
+            "bodyText": "BlessedBuy is a full-stack eCommerce shopping cart built with the MERN stack and Redux. ",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/dylvaz/blessed-buy"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://dylvaz.github.io/blessed-buy/#/"
+                }
+            ],
+            "tags": [
+                "React",
+                "Responsive",
+                "MongoDB",
+                "Express.js"
+            ]
+        }
+    ]
+}
