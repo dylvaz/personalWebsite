@@ -11,19 +11,19 @@
         },
         {
             "title": "About",
-            "href": "/about"
+            "href": "/personalWebsite/about"
         },
         {
             "title": "Skills",
-            "href": "/skills"
+            "href": "/personalWebsite/skills"
         },
         {
             "title": "Experience",
-            "href": "/experience"
+            "href": "/personalWebsite/experience"
         },
         {
             "title": "Projects",
-            "href": "/projects"
+            "href": "/personalWebsite/projects"
         },
         {
             "title": "Resume",
