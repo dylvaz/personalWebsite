@@ -9,7 +9,7 @@ function MainApp() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.routes, {
+    fetch(process.env.PUBLIC_URL + endpoints.routes, {
       method: 'GET',
     })
       .then((res) => res.json())
