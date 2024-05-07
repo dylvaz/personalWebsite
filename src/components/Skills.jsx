@@ -30,7 +30,7 @@ function Skills(props) {
   );
 
   useEffect(() => {
-    fetch(endpoints.skills, {
+    fetch(process.env.PUBLIC_URL + endpoints.skills, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -43,7 +43,7 @@ function Skills(props) {
       <Header title={header} />
       {data ? (
         <Fade>
-          <div className="section-content-container">
+          <div className='section-content-container'>
             <Container>
               {renderSkillsIntro(data.intro)}
               {data.skills?.map((rows) => (
@@ -65,7 +65,9 @@ function Skills(props) {
             </Container>
           </div>
         </Fade>
-      ) : <FallbackSpinner /> }
+      ) : (
+        <FallbackSpinner />
+      )}
     </>
   );
 }

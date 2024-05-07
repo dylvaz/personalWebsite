@@ -16,7 +16,7 @@ function Social() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.social, {
+    fetch(process.env.PUBLIC_URL + endpoints.social, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -25,18 +25,20 @@ function Social() {
   }, []);
 
   return (
-    <div className="social">
-      {data ? data.social.map((social) => (
-        <SocialIcon
-          key={social.network}
-          style={styles.iconStyle}
-          url={social.href}
-          network={social.network}
-          bgColor={theme.socialIconBgColor}
-          target="_blank"
-          rel="noopener"
-        />
-      )) : null}
+    <div className='social'>
+      {data
+        ? data.social.map((social) => (
+            <SocialIcon
+              key={social.network}
+              style={styles.iconStyle}
+              url={social.href}
+              network={social.network}
+              bgColor={theme.socialIconBgColor}
+              target='_blank'
+              rel='noopener'
+            />
+          ))
+        : null}
     </div>
   );
 }

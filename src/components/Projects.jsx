@@ -24,7 +24,7 @@ const Projects = (props) => {
   const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
-    fetch(endpoints.projects, {
+    fetch(process.env.PUBLIC_URL + endpoints.projects, {
       method: 'GET',
     })
       .then((res) => res.json())

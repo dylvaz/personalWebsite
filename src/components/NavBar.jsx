@@ -42,7 +42,7 @@ const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
-    fetch(endpoints.navbar, {
+    fetch(process.env.PUBLIC_URL + endpoints.navbar, {
       method: 'GET',
     })
       .then((res) => res.json())
