@@ -1,24 +1,37 @@
 {
-    "projects": [
+  "projects": [
+    {
+      "image": "images/projects/blessedBuyScreenshot.png",
+      "title": "BlessedBuy",
+      "bodyText": "BlessedBuy is a full-stack eCommerce shopping cart built with the MERN stack and Redux. ",
+      "links": [
         {
-            "title": "BlessedBuy",
-            "bodyText": "BlessedBuy is a full-stack eCommerce shopping cart built with the MERN stack and Redux. ",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/dylvaz/blessed-buy"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://dylvaz.github.io/blessed-buy/#/"
-                }
-            ],
-            "tags": [
-                "React",
-                "Responsive",
-                "MongoDB",
-                "Express.js"
-            ]
+          "text": "GitHub",
+          "href": "https://github.com/dylvaz/blessed-buy"
+        },
+        {
+          "text": "Live",
+          "href": "https://dylvaz.github.io/blessed-buy/#/"
         }
-    ]
+      ],
+      "tags": ["React", "Responsive", "MongoDB", "Express.js", "CSS", "Redux", "Javascript"]
+    },
+
+    {
+      "image": "images/projects/strongPasswordGeneratorScreenshot.png",
+      "title": "Strong Password Generator",
+      "bodyText": "A Next.js app I built because I wanted an easy way to create a strong password without having to visit sites that bombard me with ads and cookie consent banners.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/dylvaz/strong-password-generator"
+        },
+        {
+          "text": "Live",
+          "href": "https://strong-password-generator-sigma.vercel.app/passwordGenerator"
+        }
+      ],
+      "tags": ["Next.js", "Responsive", "MUI", "Typescript"]
+    }
+  ]
 }
