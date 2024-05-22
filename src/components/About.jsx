@@ -18,7 +18,7 @@ const styles = {
   },
   introImageContainer: {
     margin: 10,
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     alignItems: 'center',
     display: 'flex',
   },
@@ -47,16 +47,11 @@ function About(props) {
           {data ? (
             <Fade>
               <Row>
-                <Col style={styles.introTextContainer}>
-                  {parseIntro(data.about)}
-                </Col>
-                <Col style={styles.introImageContainer}>
-                  <img
-                    src={data?.imageSource}
-                    style={{ maxWidth: 500, maxHeight: 500 }}
-                    alt='profile'
-                  />
-                </Col>
+                <Col style={styles.introTextContainer}>{parseIntro(data.about)}</Col>
+              </Row>
+              <Row style={styles.introImageContainer}>
+                <img src={data?.bannerImage} style={{ maxWidth: 700, maxHeight: 500, marginBottom: 10 }} alt='banner' />
+                <img src={data?.profileImage} style={{ maxWidth: 500, maxHeight: 500 }} alt='profile' />
               </Row>
             </Fade>
           ) : (
